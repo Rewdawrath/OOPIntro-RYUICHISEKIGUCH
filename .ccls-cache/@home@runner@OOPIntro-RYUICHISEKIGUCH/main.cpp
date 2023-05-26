@@ -11,8 +11,15 @@ int main(int argc, char* argv[]) {
     s1.set_age(20); 
 		s2.set_name("Joe");
     s2.set_age(17);
-    s1.get_age()>s2.get_age() ?
-		
+    if (s1.get_age()>s2.get_age())
+    {
+      s1.print_name(); 
+    }else
+    {
+      s2.print_name();
+    }
+    cout<<"is older";
+      
     s1.print_name();
     s2.print_name(); 
    
